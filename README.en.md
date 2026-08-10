@@ -48,7 +48,7 @@ Double-click `build.bat` (installs dependencies + PyInstaller single-file build)
 > ⚠️ build.bat contains only ASCII — Chinese Windows cmd parses with GBK and would mangle UTF-8 comments into broken commands.
 
 ### ⚠️ Prerequisite
-The band must have **Heart Rate Broadcast** enabled: band settings → More → Heart Rate Broadcast. Without it the app cannot connect — it's a hardware switch, not a bug.
+The band must have **Heart Rate Broadcast** enabled: band settings → Heart Rate Broadcast. Without it the app cannot connect — it's a hardware switch, not a bug.
 
 > 🎮 **Exclusive fullscreen games**: the overlay is covered by exclusive-fullscreen games. Switch your game to "Borderless Windowed" or "Windowed" mode (most games default to borderless — no action needed).
 
