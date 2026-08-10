@@ -1,4 +1,4 @@
-# 💓 HR Overlay — Mi Band Heart-Rate Floating HUD
+# 💓 HR Overlay — Mi Band Heart-Rate Floating Card
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/mi-band-heart-rate-hud)](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)
@@ -7,7 +7,7 @@
 
 > **English** | [中文](README.md)
 
-A floating desktop HUD that shows your live heart rate from a Xiaomi Mi Band 9 Pro on Windows. Perfect for horror games, fitness games, or any moment you want to watch your pulse climb. Supports click-through, multiple devices, and threshold blinking alerts.
+A floating desktop card that shows your live heart rate from a Xiaomi Mi Band (heart-rate broadcast required) on Windows. Perfect for horror games, fitness games, or any moment you want to watch your pulse climb. Supports click-through, multiple devices, and threshold blinking alerts.
 
 **[⬇ Download HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)** (portable, no Python required, ~39MB)
 
@@ -49,6 +49,8 @@ Double-click `build.bat` (installs dependencies + PyInstaller single-file build)
 
 ### ⚠️ Prerequisite
 The band must have **Heart Rate Broadcast** enabled: band settings → More → Heart Rate Broadcast. Without it the app cannot connect — it's a hardware switch, not a bug.
+
+> 🎮 **Exclusive fullscreen games**: the overlay is covered by exclusive-fullscreen games. Switch your game to "Borderless Windowed" or "Windowed" mode (most games default to borderless — no action needed).
 
 ---
 
