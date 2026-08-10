@@ -1,4 +1,4 @@
-# 💓 HR Overlay — 小米手环心率悬浮球
+# 💓 HR Overlay — 小米手环心率悬浮卡片
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/mi-band-heart-rate-hud)](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)
@@ -7,7 +7,7 @@
 
 > [English](README.en.md) | **中文**
 
-实时显示小米手环 9 Pro 心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
+实时显示小米手环（需支持心率广播）心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
 
 **[⬇ 下载 HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)**（免安装便携版，约 39MB）
 
