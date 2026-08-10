@@ -9,7 +9,7 @@
 
 实时显示小米手环（需支持心率广播）心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
 
-**[⬇ 下载 HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)**（免安装便携版，约 39MB）
+**[⬇ 下载 miband-heartbeat-hud.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)**（免安装便携版，约 39MB）
 
 ---
 
@@ -33,7 +33,7 @@
 ## 🚀 安装与运行
 
 ### 方式一：便携 exe（推荐）
-从 [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) 下载 `HR-Overlay.exe`，双击运行。无需安装 Python。
+从 [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) 下载 `miband-heartbeat-hud.exe`，双击运行。无需安装 Python。
 
 ### 方式二：源码运行（开发）
 ```bat
@@ -43,7 +43,7 @@ python -m hr_overlay.main
 或双击 `start.bat`（pythonw 无窗口启动）。
 
 ### 打包 exe
-双击 `build.bat`（自动装依赖 + PyInstaller 单文件打包），产物在 `dist/HR-Overlay.exe`。
+双击 `build.bat`（自动装依赖 + PyInstaller 单文件打包），产物在 `dist/miband-heartbeat-hud.exe`。
 
 > ⚠️ build.bat 内容为全英文——中文 Windows cmd 用 GBK 解析，UTF-8 中文注释会被拆成乱码命令。
 

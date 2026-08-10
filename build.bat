@@ -13,7 +13,7 @@ pyinstaller --collect-all winrt ^
     --hidden-import winrt.windows.devices.radios ^
     --noconsole ^
     --onefile ^
-    --name HR-Overlay ^
+    --name miband-heartbeat-hud ^
     --icon icon.ico ^
     run.py
 

@@ -9,7 +9,7 @@
 
 A floating desktop card that shows your live heart rate from a Xiaomi Mi Band (heart-rate broadcast required) on Windows. Perfect for horror games, fitness games, or any moment you want to watch your pulse climb. Supports click-through, multiple devices, and threshold blinking alerts.
 
-**[⬇ Download HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)** (portable, no Python required, ~39MB)
+**[⬇ Download miband-heartbeat-hud.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)** (portable, no Python required, ~39MB)
 
 ---
 
@@ -33,7 +33,7 @@ A floating desktop card that shows your live heart rate from a Xiaomi Mi Band (h
 ## 🚀 Install & Run
 
 ### Option 1: Portable exe (recommended)
-Download `HR-Overlay.exe` from [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) and double-click. No Python needed.
+Download `miband-heartbeat-hud.exe` from [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) and double-click. No Python needed.
 
 ### Option 2: Run from source (development)
 ```bat
@@ -43,7 +43,7 @@ python -m hr_overlay.main
 Or double-click `start.bat` (pythonw, no console window).
 
 ### Build the exe
-Double-click `build.bat` (installs dependencies + PyInstaller single-file build). Output: `dist/HR-Overlay.exe`.
+Double-click `build.bat` (installs dependencies + PyInstaller single-file build). Output: `dist/miband-heartbeat-hud.exe`.
 
 > ⚠️ build.bat contains only ASCII — Chinese Windows cmd parses with GBK and would mangle UTF-8 comments into broken commands.
 
