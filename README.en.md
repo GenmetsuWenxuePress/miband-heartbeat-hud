@@ -1,7 +1,7 @@
 # 💓 HR Overlay — Mi Band Heart-Rate Floating Card
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/mi-band-heart-rate-hud)](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)
+[![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/miband-heartbeat-hud)](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)]()
 [![Tests](https://img.shields.io/badge/tests-24%20passed-green)]()
 
@@ -9,7 +9,7 @@
 
 A floating desktop card that shows your live heart rate from a Xiaomi Mi Band (heart-rate broadcast required) on Windows. Perfect for horror games, fitness games, or any moment you want to watch your pulse climb. Supports click-through, multiple devices, and threshold blinking alerts.
 
-**[⬇ Download HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)** (portable, no Python required, ~39MB)
+**[⬇ Download HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)** (portable, no Python required, ~39MB)
 
 ---
 
@@ -33,7 +33,7 @@ A floating desktop card that shows your live heart rate from a Xiaomi Mi Band (h
 ## 🚀 Install & Run
 
 ### Option 1: Portable exe (recommended)
-Download `HR-Overlay.exe` from [Releases](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases) and double-click. No Python needed.
+Download `HR-Overlay.exe` from [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) and double-click. No Python needed.
 
 ### Option 2: Run from source (development)
 ```bat

@@ -1,7 +1,7 @@
 # 💓 HR Overlay — 小米手环心率悬浮卡片
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/mi-band-heart-rate-hud)](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)
+[![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/miband-heartbeat-hud)](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)]()
 [![Tests](https://img.shields.io/badge/tests-24%20passed-green)]()
 
@@ -9,7 +9,7 @@
 
 实时显示小米手环（需支持心率广播）心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
 
-**[⬇ 下载 HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases)**（免安装便携版，约 39MB）
+**[⬇ 下载 HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)**（免安装便携版，约 39MB）
 
 ---
 
@@ -33,7 +33,7 @@
 ## 🚀 安装与运行
 
 ### 方式一：便携 exe（推荐）
-从 [Releases](https://github.com/GenmetsuWenxuePress/mi-band-heart-rate-hud/releases) 下载 `HR-Overlay.exe`，双击运行。无需安装 Python。
+从 [Releases](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases) 下载 `HR-Overlay.exe`，双击运行。无需安装 Python。
 
 ### 方式二：源码运行（开发）
 ```bat
