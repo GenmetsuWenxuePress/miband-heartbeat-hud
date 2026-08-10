@@ -1,4 +1,4 @@
-# 💓 HR Overlay — Mi Band Heart-Rate Floating Card
+# 💓 miband-heartbeat-hud — Mi Band Heart-Rate Floating Card
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/miband-heartbeat-hud)](https://github.com/GenmetsuWenxuePress/miband-heartbeat-hud/releases)
