@@ -1,8 +1,15 @@
 # 💓 HR Overlay — 小米手环心率悬浮球
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/GenmetsuWenxuePress/hr-overlay)](https://github.com/GenmetsuWenxuePress/hr-overlay/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)]()
+[![Tests](https://img.shields.io/badge/tests-24%20passed-green)]()
+
+> **English** | [中文](README.md)
+
 实时显示小米手环 9 Pro 心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
 
-> 基于 DEV_PLAN.md v1.0（2026-08-10）全新开发，从零实现，无历史包袱。
+**[⬇ 下载 HR-Overlay.exe](https://github.com/GenmetsuWenxuePress/hr-overlay/releases)**（免安装便携版，约 39MB）
 
 ---
 
@@ -11,12 +18,13 @@
 | 功能 | 说明 |
 |------|------|
 | 💗 BLE 心率采集 | 标准 0x180D/0x2A37，订阅 notify，约每秒 1 拍；8s 无数据自动重连 |
-| 🃏 置顶悬浮卡片 | 无边框、置顶、不进任务栏；数字 + 心电图波形 + 状态点 + 设备昵称 |
+| 🃏 置顶悬浮卡片 | 无边框、置顶、不进任务栏；数字 + 心电图波形 + 设备昵称 |
 | 🎚 透明度 | **只影响卡片背景与描边，数字/波形永不透明**；0% = 背景隐形，内容悬浮 |
-| 🖱 点击穿透 | 默认关闭（可拖动）；双击托盘图标快速切换；穿透时鼠标穿透游戏 |
+| 🖱 点击穿透 | 默认关闭（可拖动）；双击托盘图标快速切换；穿透时鼠标直达游戏 |
 | 🛡 防丢 | 拖动钳制在屏幕内（拖不出去）；托盘"重置位置"一键回主屏居中 |
 | ⚡ 心率提醒 | 阈值 100/120/140/160/180，达到后数字 400ms 闪烁，回落/断连自动恢复 |
-| 🎨 主题 | 深色 / 浅色；数字颜色自动随区间（绿/黄/红）或固定色 |
+| 📈 心电图 | 固定刻度 40~200 BPM（绝对心率可见），小波动放大 6 倍（精细变化可见） |
+| 🎨 主题 | 深色 / 浅色；数字与别名颜色自动随区间（绿/黄/红）或固定色 |
 | 📱 多设备 | 多手环各一张卡片垂直堆叠；托盘菜单实时显示每台 BPM |
 | 🔧 配对向导 | 8s 扫描 BLE 设备，★ 标小米系；不验证连接（保护手环广播状态） |
 
@@ -24,17 +32,23 @@
 
 ## 🚀 安装与运行
 
-### 方式一：源码运行（开发）
+### 方式一：便携 exe（推荐）
+从 [Releases](https://github.com/GenmetsuWenxuePress/hr-overlay/releases) 下载 `HR-Overlay.exe`，双击运行。无需安装 Python。
+
+### 方式二：源码运行（开发）
 ```bat
 pip install -r requirements.txt
 python -m hr_overlay.main
 ```
 或双击 `start.bat`（pythonw 无窗口启动）。
 
-### 方式二：打包 exe（交付）
-双击 `build.bat`（自动装依赖 + PyInstaller 单文件打包），产物在 `dist/HR-Overlay.exe`（约 39MB，免 Python）。
+### 打包 exe
+双击 `build.bat`（自动装依赖 + PyInstaller 单文件打包），产物在 `dist/HR-Overlay.exe`。
 
 > ⚠️ build.bat 内容为全英文——中文 Windows cmd 用 GBK 解析，UTF-8 中文注释会被拆成乱码命令。
+
+### ⚠️ 使用前提
+手环必须开启「心率广播」：手环设置 → 更多 → 心率广播 打开（不开连不上，这是硬件开关不是软件 bug）。
 
 ---
 
@@ -71,7 +85,7 @@ python -m hr_overlay.main
   "zone_low": 100, "zone_high": 140,
   "click_through": false,
   "theme": "dark", "bpm_color": "", "alert_bpm": 0,
-  "devices": [{"address": "3C:AF:B7:F6:8E:90", "name": "Rodion"}]
+  "devices": [{"address": "AA:BB:CC:DD:EE:01", "name": "My Band"}]
 }
 ```
 
@@ -115,6 +129,12 @@ hr-overlay/
 │   └── tray.py             # 系统托盘 + 全菜单
 └── tests/                  # 24 个 pytest 用例
 ```
+
+---
+
+## 📜 许可证
+
+[GPL-3.0](LICENSE) © 2026 GenmetsuWenxuePress
 
 ---
 

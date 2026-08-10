@@ -101,6 +101,6 @@ def test_connected_property(make_model):
 
 
 def test_display_name_and_address(make_model):
-    model = make_model(name="Band 9 Pro", address="3C:AF:B7:F6:8E:90")
+    model = make_model(name="Band 9 Pro", address="AA:BB:CC:DD:EE:01")
     assert model.display_name == "Band 9 Pro"
-    assert model.address == "3C:AF:B7:F6:8E:90"
+    assert model.address == "AA:BB:CC:DD:EE:01"

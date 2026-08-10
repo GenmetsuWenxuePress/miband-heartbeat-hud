@@ -38,7 +38,7 @@ def test_missing_fields_silent_defaults(tmp_path):
 
 def test_legacy_device_address_migration(tmp_path):
     config_file = tmp_path / "legacy.json"
-    legacy_addr = "3C:AF:B7:F6:8E:90"
+    legacy_addr = "AA:BB:CC:DD:EE:01"
     config_file.write_text(json.dumps({"device_address": legacy_addr}), encoding="utf-8")
     cfg = load_config(config_file)
     assert any(d.address == legacy_addr for d in cfg.devices)
