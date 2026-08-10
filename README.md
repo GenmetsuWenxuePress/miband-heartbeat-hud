@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)]()
 [![Tests](https://img.shields.io/badge/tests-24%20passed-green)]()
 
-> **English** | [中文](README.md)
+> [English](README.en.md) | **中文**
 
 实时显示小米手环 9 Pro 心率的 Windows 桌面悬浮卡片。打恐怖游戏/健身游戏时的心跳 HUD，支持点击穿透、多设备、阈值闪烁提醒。
 
